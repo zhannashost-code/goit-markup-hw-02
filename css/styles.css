@@ -1,0 +1,141 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    text-transform: uppercase;
+
+}
+
+.logo-accent {
+    color: #4D5AE5;
+}
+
+.nav-list {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: medium;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #4D5AE5;
+}
+
+.header-address {
+    color: #434455;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #4D5AE5;
+}
+
+.main {
+    background-color: #2E2F42;
+}
+
+.main-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.main-button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.features-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+
+
+
+. .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #F4F4FD;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
