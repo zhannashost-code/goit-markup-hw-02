@@ -27,16 +27,18 @@ ol {
     color: #4D5AE5;
 }
 
-.nav-list {
-    color: #2E2F42;
+.nav-link {
+    color: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: medium;
 }
 
-.nav-link:hover,
+.nav-link:hover {
+    color: #404BBF;
+}
+
 .nav-link:focus {
     color: #4D5AE5;
 }
@@ -44,21 +46,20 @@ ol {
 .header-address {
     color: #434455;
     line-height: 1.5;
-    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
-.main {
+.hero {
     background-color: #2E2F42;
 }
 
-.main-title {
+.hero-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -67,7 +68,7 @@ ol {
     text-align: center;
 }
 
-.main-button {
+.hero-button {
     color: #FFFFFF;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -77,8 +78,12 @@ ol {
     cursor: pointer;
 }
 
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF
+}
+
 .features-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -113,7 +118,6 @@ ol {
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -125,10 +129,16 @@ ol {
     background-color: #FFFFFF;
 }
 
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 
 
-
-. .footer-logo {
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
