@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -28,26 +28,26 @@ ol {
 }
 
 .nav-link {
-    color: inherit;
+    color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: #404BBF;
 }
 
-.nav-link:focus {
-    color: #4D5AE5;
-}
+
 
 .header-address {
     color: #434455;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .address-link:hover,
@@ -78,8 +78,8 @@ ol {
     cursor: pointer;
 }
 
-.main-button:hover,
-.main-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF
 }
 
@@ -102,6 +102,7 @@ ol {
 }
 
 .team-title {
+    color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -110,6 +111,7 @@ ol {
 }
 
 .team-name {
+    color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -130,6 +132,7 @@ ol {
 }
 
 .portfolio-title {
+    color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -137,6 +140,20 @@ ol {
     text-align: center;
 }
 
+.portfolio-name {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
