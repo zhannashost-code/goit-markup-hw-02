@@ -19,8 +19,9 @@ ol {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    color: #2E2F42;
 }
 
 .logo-accent {
@@ -56,7 +57,7 @@ ol {
 }
 
 .hero {
-    background-color: #2E2F42;
+    background-color: #2F2F42;
 }
 
 .hero-title {
@@ -155,14 +156,11 @@ ol {
     letter-spacing: 0.02em;
 }
 
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+.page-footer {
+    background-color: #2E2F42;
     color: #F4F4FD;
 }
 
-footer {
-    background-color: #2E2F42;
+.page-footer .logo {
     color: #F4F4FD;
 }
